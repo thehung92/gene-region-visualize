@@ -21,26 +21,35 @@ Click the green 'Use this template' button from [in this repo](https://github.co
 ## File tree
 
 ```
-r-analysis-template/
+.
+├── 00_library.R
 ├── 01_read.R
-├── 02_tidy.R
-├── 03_model.R
-├── data/
+├── 02_prep-components.R
+├── 03_main-loop.R
+├── LICENSE
+├── R
 │   ├── README.md
-│   └── YYYMMDD_raw-data.csv
-├── docs/
+│   └── functions.R
+├── README.md
+├── data
 │   ├── README.md
-│   ├── template-document-example.docx
-│   ├── template-document-example.html
-│   └── template-document-example.Rmd
-├── ext/
+│   ├── asd.290.IBD_cleaned.tdt.gz
+│   ├── genetic_map_GRCh38_merged.tab.gz
+│   ├── matrix.r2.unrelated.variant1.txt
+│   ├── matrix.r2.unrelated.variant2.txt
+│   ├── matrix.r2.unrelated.variant3.txt
+│   └── matrix.r2.unrelated.variant4.txt
+├── docs
+│   ├── README.md
+│   ├── attempt3.0.Rmd
+│   └── attempt3.0.nb.html
+├── ext
 │   └── README.md
-├── output/
-│   ├── README.md
-│   └── YYYMMDD_cleaned-data.csv
-├── R/
-│   ├── functions.R
+├── gviz_plot_loop_2.R
+├── output
+│   ├── 4f_variant_1.chrX_107597826.png
 │   └── README.md
 ├── r-analysis-template.Rproj
-└── README.md
+├── sub_chr_ensembl.function.R
+└── sub_strand_gviz.function.R
 ```
