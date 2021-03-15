@@ -1,0 +1,12 @@
+#### library ####
+library("Gviz")
+library("GenomicRanges")
+library("tidyverse")
+library(data.table)
+library("lemon")
+library(biomaRt)
+library(grid)
+library(gridtext)
+library(ggpubr)
+source("sub_chr_ensembl.function.R")
+source("sub_strand_gviz.function.R")
