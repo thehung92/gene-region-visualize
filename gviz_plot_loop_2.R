@@ -294,3 +294,6 @@ for (i in 1) {
 # for (i in 1:length(command)) {
 #   system(command[i])
 # }
+
+#### reset before exit ####
+rm(list=ls())
