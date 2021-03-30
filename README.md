@@ -12,6 +12,22 @@ The figure aim to zoom in region in the same style as locus zoom but with better
 
 ## How to use
 
+Install all the library required for this code before executing gviz_plot_loop_2.R
+```
+Gviz
+GenomicRanges
+tidyverse
+data.table
+lemon
+biomaRt
+grid
+gridtext
+ggpubr
+```
+Library can be installed with `install.packages("")` in `R`
+
+
+## Citation
 When you use this code for your work, please cite the following paper:
 
 
