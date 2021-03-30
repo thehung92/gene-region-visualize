@@ -5,7 +5,8 @@
 ## Purpose
 
 This repos share how we visualize the figure from the article
-![alt text](https://github.com/thehung92/gene-region-visualize/blob/main/output/4f_variant_1.chrX_107597826.png)
+
+![alt text](https://github.com/thehung92/gene-region-visualize/blob/main/output/variant_1.chrX_107597826.png)
 
 The figure aim to zoom in region in the same style as locus zoom but with better graphics in R
 

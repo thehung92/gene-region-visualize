@@ -103,7 +103,7 @@ g <- richtext_grob(text,
                    hjust=0,vjust=0.5,
                    gp=gpar(fontfamily="Arial", fontsize=8, col="#808080"))
 #### loop plot ####
-for (i in 1) {
+for (i in 1:4) {
   # i=1
   print(paste("Plotting variant",i,"using gviz"))
   #
@@ -256,7 +256,7 @@ for (i in 1) {
                        col="#FFE3E6")
   # start plotting with grid viewport on png device
   cat("plotting with grid viewport on png device...\n")
-  output=paste0("./output/4f_variant_",i,".",sel.chr,"_",sel.pos,".png")
+  output=paste0("./output/variant_",i,".",sel.chr,"_",sel.pos,".png")
   png(file=output, bg="white",
       units="mm", width=175, height=100, res=300)
   grid.newpage()
